@@ -12,9 +12,26 @@ There are 2 scripts attached to the assignment:
 
 To run the script. Go to the folder though console where the python script is.
 
+# Install Libraries below to get the script running
+
+xml.etree.ElementTree as ET
+pandas
+openpyxl
+glob
+unittest
+os.path
+
+Conda install (anaconda)
+
+Pip install
+
+Use above with name of libraries to install based on the package manager. 
+
 Run: 
 
 **Python nuula.py**
+
+
 
 It will ask the directory path , input below 
 
