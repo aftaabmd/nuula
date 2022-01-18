@@ -21,6 +21,8 @@ It will ask the directory path , input below
 
 Else directory path where the data files are 
 
+This will create a excel file "Main.xlsx" in the same folder where the python script is based
+
 # Running unittests:
 python –m unittest nuula.py
 
