@@ -32,10 +32,11 @@ Pip install
 
 Use above with name of libraries to install based on the package manager. 
 
-Run: 
+
+
+# Run: 
 
 **Python nuula.py**
-
 
 
 It will ask the directory path , input below 
