@@ -1,0 +1,193 @@
+<Data>
+    <Nuula starttime="2021-08-27T20:32:34.745Z">
+        <Reports>
+            <NAICS override=""
+                code="722511"
+                buyrateplan="Preferred"
+                declineall="0"
+                excluded_industry="0"
+                iscore="1"
+                pullpercentplan="Preferred"
+                restricted="0"
+                status="pass">
+                <Raw>
+                    <OutputRow name="Full-Service Restaurants"
+                        naic_code="722511"
+                        allowed="1"
+                        core="0" />
+                </Raw>
+            </NAICS>
+            <TIB override=""
+                status="pass" />
+            <FinancialSummary>
+                <Raw />
+            </FinancialSummary>
+            <Ocrolus />
+            <OcrolusTransaction>
+                <Raw />
+            </OcrolusTransaction>
+            <GDS />
+            <DataMerch status="pass">
+                <Raw>[]</Raw>
+            </DataMerch>
+            <ExperianBizID />
+            <Suppression status="pass" />
+        </Reports>
+        <RiskDecision>
+            <Decision stage=""
+                status="Declined" />
+            <Request applicationId="9718"
+                applicationNumber="2481134446"
+                desiredLoanAmount="null"
+                source="API_PRODUCT"
+                productType="LOC"
+                re-entry="false">
+                <business businessName="Business Financial Services, Inc."
+                    dbaBusinessName="Nuula"
+                    taxId="333333334"
+                    incorporationDate="04/22/2000"
+                    ownershipDate="02/28/2002"
+                    submissionDate="2021-08-27 20:32:34.566236"
+                    naicsBusinessType="Full-Service Restaurants"
+                    businessPhone="9545095384"
+                    legalEntityType="LLC"
+                    mortgage_or_lease_amt="null"
+                    own_lease="null"
+                    channel="EXTERNAL_API">
+                    <Competitors>
+                        <competitor />
+                    </Competitors>
+                    <Addresses>
+                        <Address address2="null"
+                            city="Coral Springs"
+                            state="FL"
+                            zip="33065" />
+                    </Addresses>
+                    <Address city="Coral Springs"
+                        state="FL"
+                        address="3301 N University Drive"
+                        zip="33065"
+                        address2="null"
+                        county_name="Broward County" />
+                </business>
+                <applicants isFicoBelow500="false"
+                    isFicoAbove500="false">
+                    <applicant dob="04/15/1979"
+                        firstName="Stefan"
+                        fullSsn="222222224"
+                        lastName="Schmidt"
+                        mobile="4168808181"
+                        ssn="222222224"
+                        ownership="100.0"
+                        phone="null"
+                        beneficial_owner="true"
+                        business_guarantor="true"
+                        active=""
+                        counter="1"
+                        id="PRINCIPAL1"
+                        LNcontext="primary">
+                        <Address city="Brooklyn"
+                            state="NY"
+                            address="29 Tiffany Pl, 4J"
+                            zip="11231"
+                            country="USA"
+                            type="primary" />
+                        <driverslicense />
+                        <phone number="4168808181"
+                            ExpType="C"
+                            LNtype="mobile" />
+                        <DOB day="15"
+                            month="4"
+                            year="1979" />
+                        <Reports>
+                            <ExperianConsumer status="fail">
+                                <Raw>{"headerRecordError":[{"hostid":"0","applicationId":"C","reportDate":"082721","reportTime":"153236","reportType":"X","regionCode":"W","versionNo":"07","surName":"SCHMIDT   ","firstName":"STE","mKeywordLength":"00","y2kReportedDate":"08272021"}],"errors":[{"errorCode":"1002","errorType":"Api Validation","message":"Street Address invalid"},{"errorCode":"627","errorType":"Backend Error","message":"INVALID STREET ADDRESS FIELD"}],"endTotalsError":[{"totalReportSegments":"003","positiveTradeItems":"000","nonEvaluatedTradeItems":"000","negativeTradeItems":"000","nonEvaluatedLegalItems":"000","negativeLegalItems":"000"}]}</Raw>
+                                <Parsed>
+                                    <JSON>
+                                        <HTTPHeaders Status-Code="400"
+                                            experianTransactionId="rrt-02b96f93cb05eff48-d-ea-24094-36056748-1"
+                                            Transfer-Encoding="chunked"
+                                            Status-Message="Web Service Returned non-OK status 400"
+                                            Access-Control-Allow-Origin="*"
+                                            X-Iinfo="4-62914524-62914538 NNNN CT(33 36 0) RT(1630096355879 75) q(0 0 1 -1) r(4 4) U6"
+                                            Access-Control-Allow-Methods="GET, POST"
+                                            X-Content-Type-Options="nosniff"
+                                            Connection="keep-alive"
+                                            X-Application-Context="creditprofile-service:uat:8080"
+                                            Access-Control-Allow-Headers="origin, x-requested-with, accept, content-type, authorization, clientReferenceId"
+                                            Date="Fri, 27 Aug 2021 20:32:37 GMT"
+                                            X-Frame-Options="deny"
+                                            Strict-Transport-Security="max-age=31536000; includeSubDomains"
+                                            Cache-Control="no-store,no-cache"
+                                            X-CDN="Imperva"
+                                            Content-Security-Policy="default-src 'none'; img-src 'self';script-src 'self';style-src 'self'"
+                                            Set-Cookie="incap_ses_978_1329591=KLKIVZZ37lPsWfpISI6SDeRLKWEAAAAAr2oHyZK2SOgHKU8j6iR4Gw==; path=/; Secure; SameSite=None, nlbi_1329591=58WfB57Jrx8L90uHvKr5XQAAAAAG0AsmNaC4NGYIqWeeNd7w; path=/; Secure; SameSite=None, visid_incap_1329591=ePyLfbpvQxiQZr0mQ2xB+ORLKWEAAAAAQUIPAAAAAAA+0FqjY9SY/hz/S8a4XmcQ; expires=Sat, 27 Aug 2022 07:56:06 GMT; HttpOnly; path=/; Secure; SameSite=None"
+                                            Access-Control-Max-Age="3628800"
+                                            X-XSS-Protection="1; mode=block"
+                                            Content-Type="application/json;charset=utf-8" />
+                                    </JSON>
+                                    <JSON>
+                                        <HTTPHeaders Status-Code="400"
+                                            experianTransactionId="rrt-02b96f93cb05eff48-d-ea-24094-36056748-1"
+                                            Transfer-Encoding="chunked"
+                                            Status-Message="Web Service Returned non-OK status 400"
+                                            Access-Control-Allow-Origin="*"
+                                            X-Iinfo="4-62914524-62914538 NNNN CT(33 36 0) RT(1630096355879 75) q(0 0 1 -1) r(4 4) U6"
+                                            Access-Control-Allow-Methods="GET, POST"
+                                            X-Content-Type-Options="nosniff"
+                                            Connection="keep-alive"
+                                            X-Application-Context="creditprofile-service:uat:8080"
+                                            Access-Control-Allow-Headers="origin, x-requested-with, accept, content-type, authorization, clientReferenceId"
+                                            Date="Fri, 27 Aug 2021 20:32:37 GMT"
+                                            X-Frame-Options="deny"
+                                            Strict-Transport-Security="max-age=31536000; includeSubDomains"
+                                            Cache-Control="no-store,no-cache"
+                                            X-CDN="Imperva"
+                                            Content-Security-Policy="default-src 'none'; img-src 'self';script-src 'self';style-src 'self'"
+                                            Set-Cookie="incap_ses_978_1329591=KLKIVZZ37lPsWfpISI6SDeRLKWEAAAAAr2oHyZK2SOgHKU8j6iR4Gw==; path=/; Secure; SameSite=None, nlbi_1329591=58WfB57Jrx8L90uHvKr5XQAAAAAG0AsmNaC4NGYIqWeeNd7w; path=/; Secure; SameSite=None, visid_incap_1329591=ePyLfbpvQxiQZr0mQ2xB+ORLKWEAAAAAQUIPAAAAAAA+0FqjY9SY/hz/S8a4XmcQ; expires=Sat, 27 Aug 2022 07:56:06 GMT; HttpOnly; path=/; Secure; SameSite=None"
+                                            Access-Control-Max-Age="3628800"
+                                            X-XSS-Protection="1; mode=block"
+                                            Content-Type="application/json;charset=utf-8" />
+                                    </JSON>
+                                </Parsed>
+                            </ExperianConsumer>
+                        </Reports>
+                    </applicant>
+                </applicants>
+            </Request>
+            <PricingEngine>
+                <PricingEngineRecord deal_decile="1" />
+            </PricingEngine>
+            <Pricing owner_percentage="100.0"
+                channel_bca="0"
+                channel_direct="1"
+                channel_indirect="0"
+                rent_type="1"
+                deal_type="1" />
+        </RiskDecision>
+        <Errors>
+            <Error type="Unknown"
+                process="WebService.ExperianConsumer.ExperianConsumer.readFrom"
+                severity="ERROR"
+                code="repoObj_065722569_16a4555278c_07fee16a4badc362"
+                description="Failed to run REST profile: Error making web service call: Web Service Returned non-OK status 400"
+                timestamp="Fri Aug 27 20:32:37 UTC 2021" />
+            <Error type="ExperianConsumer"
+                process=""
+                severity="CRITICAL"
+                code="exp_cons_error"
+                description="Failed making the Experian Consumer Call"
+                timestamp="Fri Aug 27 20:32:37 UTC 2021" />
+        </Errors>
+    </Nuula>
+    <DataExtract900jer>
+        <Rules />
+        <Messages>
+            <Message Timestamp="Fri Aug 27 20:32:37 UTC 2021"
+                Source="WebService.ExperianConsumer.ExperianConsumer.readFrom"
+                Number="0"
+                Description="Failed to run REST profile: Error making web service call: Web Service Returned non-OK status 400" />
+        </Messages>
+    </DataExtract900jer>
+    <LoopCounters counter1="1.0" />
+</Data>
