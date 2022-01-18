@@ -15,10 +15,15 @@ To run the script. Go to the folder though console where the python script is.
 # Install Libraries below to get the script running
 
 xml.etree.ElementTree as ET
+
 pandas
+
 openpyxl
+
 glob
+
 unittest
+
 os.path
 
 Conda install (anaconda)
